@@ -9,7 +9,7 @@ This repository provides Matlab code to reproduce the numerical results presente
 
 The code consists of three Matlab scripts:
 
-`solve_FHN_w.m` finds pulses with monotone and oscillatory puldses for the traveling-wave equation of the FitzHugh-Nagumo system and computes the critical eigenfunction of the weighted eigenvalue problem. Users can select the parameters and initial guesses in lines 19-47 of this script and run this script in Matlab to reproduce the results in the paper cited above.
+`solve_FHN_w.m` finds pulses with monotone and oscillatory puldses for the traveling-wave equation of the FitzHugh-Nagumo system and computes the critical eigenfunction of the weighted eigenvalue problem. Users can select the parameters and initial guesses in lines 33-58 of this script and run this script in Matlab to reproduce the results in the paper cited above.
 
 `FHNeqn_w_periodic.m` is an auxiliary script that returns the right-hand side of the FHN equation and the (weighted) Jacobian 
 
